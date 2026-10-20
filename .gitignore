@@ -1,0 +1,25 @@
+
+# Arquivos temporários
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Configurações locais e segredos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Power BI - arquivos de recuperação
+*.pbit~
+*.pbix~
+
+# Dados locais que não devem ser publicados
+dados/privados/
+dados/sensiveis/
